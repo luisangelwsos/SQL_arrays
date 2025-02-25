@@ -1,0 +1,2 @@
+Tienes que utilizar UNNEST() para desanidar los arrays y volver a organizar sus elementos en filas.
+UNNEST() siempre aparece después del nombre de la tabla en su cláusula FROM (piénsalo como una tabla previamente unida).
