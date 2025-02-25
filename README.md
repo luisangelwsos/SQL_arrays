@@ -13,3 +13,7 @@ Un STRUCT de SQL es básicamente un contenedor de otros campos de datos que pued
 STRUCT("Rudisha" as name, [23.4, 26.3, 26.4, 26.1] as splits) AS runner
 A los STRUCTS se les da un alias (como “runner” en el ejemplo anterior) y podemos entenderlos como una tabla dentro de una tabla principal.
 Es necesario descomprimir los STRUCTS (y los ARRAYS) para poder usar sus elementos. Incluya UNNEST() junto al nombre del struct o del campo del struct que es un array para descomprimirlo y compactarlo.
+
+# SQL_UNNEST
+Tienes que utilizar UNNEST() para desanidar los arrays y volver a organizar sus elementos en filas.
+UNNEST() siempre aparece después del nombre de la tabla en su cláusula FROM (piénsalo como una tabla previamente unida).
